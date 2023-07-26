@@ -1,8 +1,8 @@
 # Messenger
+![Static Badge](https://img.shields.io/badge/Spring%20Boot-green)
 ![Static Badge](https://img.shields.io/badge/Message%20broker-grey)
 ![Static Badge](https://img.shields.io/badge/RabbitMQ-orange)
 ![Static Badge](https://img.shields.io/badge/MySQL-blue)
-
 
 Backend logic for messaenger website using **message broker**.
 ~~Sockets~~ are not used in this project.
