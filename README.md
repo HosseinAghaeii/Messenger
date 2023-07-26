@@ -1,6 +1,8 @@
 # Messenger
-![Static Badge](https://img.shields.io/badge/Message%20broker-blue)
+![Static Badge](https://img.shields.io/badge/Message%20broker-grey)
 ![Static Badge](https://img.shields.io/badge/RabbitMQ-orange)
+![Static Badge](https://img.shields.io/badge/MySQL-blue)
+
 
 Backend logic for messaenger website using **message broker**.
 ~~Sockets~~ are not used in this project.
@@ -18,8 +20,17 @@ It is recommended to use **Docker**
 
 ## Installing
 First you should build two client like client1 in this repository and for each client in createMessage in main class write uniqe username.
+```
+messageRequest.setPublisherId("Custom username");
+```
 You should run mysql and rabbitmq server then run Messenger app and finally you may run clients and enjoy messaging between them!
 **Notice**: The ports of all servers must match
 You can see detail of connection between servers and apps in application.properties 
+
+## Versions
+- JDK 17
+- Spring boot 3.1.1
+- mysql 5.0.12
+- rabbitmq 3.12.1-management
 
 
